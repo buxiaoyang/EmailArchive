@@ -1679,7 +1679,7 @@ html,body{height:auto !important;height:100%;min-height:100%;}
 .messageheader{background-color:#f6f6f6;padding:8px;border-bottom:1px solid #666;}
 .messagecontents{background-color:#fff;padding:8px;}
 .messagesmtpheaders{background-color:none;border:none;}
-.splitter{user-select:none;-moz-user-select:none;-khtml-user-select:none;position:absolute;background:url(/view/theme/default/assets/images/dimple.png) center no-repeat;}
+.splitter{user-select:none;-moz-user-select:none;-khtml-user-select:none;position:absolute;background:url(/view/theme/custom/assets/images/dimple.png) center no-repeat;}
 .splitter-h{cursor:n-resize;cursor:row-resize;background-position:center 2px;}
 .splitter-v{cursor:e-resize;cursor:col-resize;background-position:2px center;}
 .table-striped tbody>tr:nth-child(odd)>td,.table-striped tbody>tr:nth-child(odd)>th{background-color:#fff;}

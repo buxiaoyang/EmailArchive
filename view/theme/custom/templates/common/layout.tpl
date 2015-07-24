@@ -12,11 +12,12 @@
     <meta name="robots" content="all" />
 
     <link href="/view/theme/custom/assets/css/bootstrap.css" rel="stylesheet" />
+	<link href="/view/theme/custom/assets/css/navbar-fixed-top.css" rel="stylesheet" />
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!-- original location: http://html5shim.googlecode.com/svn/trunk/html5.js -->
     <!--[if lt IE 9]>
-      <script src="/view/theme/default/assets/js/html5.js"></script>
+      <script src="/view/theme/custom/assets/js/html5.js"></script>
     <![endif]-->
     
     <script type="text/javascript" src="/view/javascript/jquery.min.js"></script>
@@ -24,13 +25,13 @@
     <script type="text/javascript" src="/view/javascript/jscolor.js"></script>
     <script type="text/javascript" src="/view/javascript/fileupload.js"></script>
     <script type="text/javascript" src="/view/javascript/rc-splitter.js"></script>
-    <script type="text/javascript" src="/view/theme/default/assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/view/theme/custom/assets/js/bootstrap.js"></script>
     <script type="text/javascript" src="/view/javascript/piler.js"></script>
     <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/view/theme/default/assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/view/theme/default/assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/view/theme/default/assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="/view/theme/default/assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/view/theme/custom/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/view/theme/custom/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/view/theme/custom/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/view/theme/custom/assets/ico/apple-touch-icon-57-precomposed.png">
     <?php if(BRANDING_FAVICON) { ?><link rel="shortcut icon" href="<?php print BRANDING_FAVICON; ?>" /><?php } ?>
 </head>
 
