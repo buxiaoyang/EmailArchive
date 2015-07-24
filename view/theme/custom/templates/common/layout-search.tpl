@@ -12,7 +12,7 @@
    <meta name="robots" content="all" />
    <meta http-equiv="x-ua-compatible" content="IE=9">
 
-    <link href="/view/theme/default/assets/css/metro-bootstrap.css" rel="stylesheet">
+    <link href="/view/theme/custom/assets/css/bootstrap.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!-- original location: http://html5shim.googlecode.com/svn/trunk/html5.js -->

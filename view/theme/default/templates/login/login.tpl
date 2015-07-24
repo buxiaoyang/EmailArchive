@@ -8,7 +8,7 @@
     <?php if(SITE_DESCRIPTION) { ?><meta name="description" content="<?php print SITE_DESCRIPTION; ?>" /><?php } ?>
     <?php if(PROVIDED_BY) { ?><meta name="author" content="<?php print PROVIDED_BY; ?>" /><?php } ?>
 
-    <link href="/view/theme/default/assets/css/metro-bootstrap.css" rel="stylesheet">
+    <link href="/view/theme/custom/assets/css/bootstrap.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!-- original location: http://html5shim.googlecode.com/svn/trunk/html5.js -->

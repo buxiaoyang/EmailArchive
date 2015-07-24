@@ -8,19 +8,10 @@
     <?php if(SITE_DESCRIPTION) { ?><meta name="description" content="<?php print SITE_DESCRIPTION; ?>" /><?php } ?>
     <?php if(PROVIDED_BY) { ?><meta name="author" content="<?php print PROVIDED_BY; ?>" /><?php } ?>
 
-    <link href="/view/theme/default/assets/css/metro-bootstrap.css" rel="stylesheet">
+    <link href="/view/theme/custom/assets/css/bootstrap.css" rel="stylesheet">
 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!-- original location: http://html5shim.googlecode.com/svn/trunk/html5.js -->
-    <!--[if lt IE 9]>
-      <script src="/view/theme/default/assets/js/html5.js"></script>
-    <![endif]-->
-	
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/view/theme/default/assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/view/theme/default/assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/view/theme/default/assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="/view/theme/default/assets/ico/apple-touch-icon-57-precomposed.png">
+	<link href="/view/theme/custom/assets/css/signin.css" rel="stylesheet">
+
     <?php if(BRANDING_FAVICON) { ?><link rel="shortcut icon" href="<?php print BRANDING_FAVICON; ?>" /><?php } ?>
   </head>
 
@@ -28,8 +19,8 @@
    
 <?php if(!Registry::get('username')) { ?>
 
-    <div id="logincontainer" class="container">
-        <div id="logo-lg"><img src="<?php print SITE_URL; ?><?php print SITE_LOGO_LG; ?>" alt="Archive Logo Image" title="Login" /></div>
+    <div class="container">
+        <div class="logo-signin"><img src="<?php print SITE_URL; ?><?php print SITE_LOGO_LG; ?>" alt="Archive Logo Image" title="Login" /></div>
 
         <form name="login" action="login.php" method="post" class="form-signin">
 
@@ -38,20 +29,20 @@
             <?php if(isset($x)){ ?><p class="alert alert-error lead"><?php print $x; ?></p><?php } ?>
             <input type="hidden" name="relocation" value="<?php if(isset($_GET['route']) && !preg_match("/^login/", $_GET['route']) ) { if(isset($_SERVER['REDIRECT_URL'])) { print $_SERVER['REDIRECT_URL']; } else { print $_SERVER['QUERY_STRING']; } } ?>" />
 
-            <input type="text" class="input-block-level" name="username" placeholder="<?php print $text_email; ?>" required autofocus>
-            <input type="password" class="input-block-level" name="password" placeholder="<?php print $text_password; ?>">
+            <input type="text" class="form-control" name="username" placeholder="<?php print $text_email; ?>" required autofocus>
+            <input type="password" class="form-control" name="password" placeholder="<?php print $text_password; ?>">
 
         <?php if(CAPTCHA_FAILED_LOGIN_COUNT > 0 && $failed_login_count > CAPTCHA_FAILED_LOGIN_COUNT) { ?>
             <img src="securimage/securimage_show.php" alt="captcha image" id="captcha" />
             <input type="text" class="input-block-level" name="captcha" placeholder="CAPTCHA" />
         <?php } ?>
 
-            <button class="btn btn-large btn-primary" type="submit" value="<?php print $text_submit; ?>">提交</button>
+            <button class="btn btn-lg btn-primary btn-block" type="submit" value="<?php print $text_submit; ?>">提交</button>
 
         </form>
 
 
-        <div id="compatibility" class="well well-large">
+        <div id="compatibility" class="compatibility-signin">
 
             <?php if(ENABLE_GOOGLE_LOGIN == 1) { ?>
                <p><a href="<?php print $auth_url; ?>"><?php print $text_login_via_google; ?></a></p>
@@ -60,6 +51,7 @@
             <p><?php print COMPATIBILITY; ?></p>
         </div>
 
+
    </div>
 
 <?php } ?>
@@ -67,6 +59,7 @@
 <!-- <?php print PILER_LOGIN_HELPER_PLACEHOLDER; ?> -->
 
   <?php if(TRACKING_CODE) { print TRACKING_CODE; } ?>
+
 
   </body>
 </html>

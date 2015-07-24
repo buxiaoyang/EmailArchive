@@ -27,7 +27,7 @@ $config['TITLE_PREFIX'] = '';
 
 $config['BOOTSTRAP_THEME'] = '-cosmo';
 
-$config['DEFAULT_LANG'] = 'en';
+$config['DEFAULT_LANG'] = 'cn';
 
 $config['THEME'] = 'custom';
 
@@ -45,9 +45,9 @@ $config['DEMO_MODE'] = 0;
 
 $config['TIMEZONE'] = 'Europe/Budapest';
 
-$config['PROVIDED_BY'] = 'www.mailpiler.org';
-$config['SITE_KEYWORDS'] = 'piler email archiver';
-$config['SITE_DESCRIPTION'] = 'piler email archiver';
+$config['PROVIDED_BY'] = 'www.qian-xun.com';
+$config['SITE_KEYWORDS'] = 'qian-xun email archiver';
+$config['SITE_DESCRIPTION'] = 'qian-xun email archiver';
 
 $config['INDEXER_BEACON'] = '/var/piler/stat/indexer';
 $config['PURGE_BEACON'] = '/var/piler/stat/purge';
