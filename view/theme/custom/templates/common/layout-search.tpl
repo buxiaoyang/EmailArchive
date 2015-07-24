@@ -53,9 +53,8 @@
 </div>
 
 
-    <div id="menu">
-        <?php print $menu; ?>
-    </div>
+    <?php print $menu; ?>
+
     <div id="messagebox1" class="alert alert-info lead"></div>
 
     <div id="piler1" class="container-fluid">

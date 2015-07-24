@@ -45,19 +45,15 @@ if(isset($this->request->get['route'])) {
 
 } ?>>
 
-<div id="menu">
-    <?php print $menu; ?>
-</div>
+  <?php print $menu; ?>
 
-<div id="messagebox1" class="alert alert-info lead"></div>
 
 <div id="piler1" class="container">
 
-
+   <div id="messagebox1" class="alert alert-info lead"></div>
+   
    <div id="main">
-
       <?php if($title) { ?><h3><?php print $title; ?></h3><?php } ?>
-
       <?php print $content; ?>
 
    </div> <!-- main -->
@@ -65,7 +61,7 @@ if(isset($this->request->get['route'])) {
    <div id="footer"><?php print $footer; ?></div>
 
 
-</div>
+</div><!-- /container -->
 
 <?php if(TRACKING_CODE) { print TRACKING_CODE; } ?>
 

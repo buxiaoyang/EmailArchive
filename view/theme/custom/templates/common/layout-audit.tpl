@@ -36,9 +36,7 @@
 
 <body onload="Piler.add_shortcuts();">
 
-    <div id="menu">
-        <?php print $menu; ?>
-    </div>
+   <?php print $menu; ?>
 
    <div id="messagebox1" class="audit audit-info"></div>
 
