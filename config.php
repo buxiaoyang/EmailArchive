@@ -21,7 +21,7 @@ $config['BRANDING_URL'] = '';
 $config['BRANDING_LOGO'] = '';
 $config['BRANDING_BACKGROUND_COLOUR'] = '';
 $config['BRANDING_TEXT_COLOUR'] = '';
-$config['BRANDING_FAVICON'] = '/view/theme/default/assets/ico/favicon.png';
+$config['BRANDING_FAVICON'] = '/view/theme/custom/assets/ico/favicon.png';
 $config['SUPPORT_LINK'] = '';
 $config['TITLE_PREFIX'] = '';
 
@@ -125,7 +125,7 @@ $config['GOOGLE_ALL_MAIL'] = '[Gmail]/All Mail';
 
 $config['SITE_LOGO_LG'] = 'view/theme/default/assets/images/archive-logo-lg.png';
 $config['SITE_LOGO_SM'] = 'view/theme/default/assets/images/archive-logo-sm.png';
-$config['COMPATIBILITY'] = 'Which browsers are supported, etc';
+$config['COMPATIBILITY'] = '上海纤讯信息科技有限公司 版权所有';
 
 
 $config['ENABLE_AUDIT'] = 1;

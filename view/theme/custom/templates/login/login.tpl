@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title><?php if($title_prefix) { print $title_prefix; ?> | <?php } ?><?php print $title; ?></title>
+    <title><?php if($title_prefix) { print $title_prefix; ?> | <?php } ?>登陆</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php if(SITE_KEYWORDS) { ?><meta name="keywords" content="<?php print SITE_KEYWORDS; ?>" /><?php } ?>
     <?php if(SITE_DESCRIPTION) { ?><meta name="description" content="<?php print SITE_DESCRIPTION; ?>" /><?php } ?>
@@ -33,7 +33,7 @@
 
         <form name="login" action="login.php" method="post" class="form-signin">
 
-            <h2 class="form-signin-heading"><?php print $text_login; ?></h2>
+            <h2 class="form-signin-heading">登陆</h2>
 
             <?php if(isset($x)){ ?><p class="alert alert-error lead"><?php print $x; ?></p><?php } ?>
             <input type="hidden" name="relocation" value="<?php if(isset($_GET['route']) && !preg_match("/^login/", $_GET['route']) ) { if(isset($_SERVER['REDIRECT_URL'])) { print $_SERVER['REDIRECT_URL']; } else { print $_SERVER['QUERY_STRING']; } } ?>" />
@@ -46,7 +46,7 @@
             <input type="text" class="input-block-level" name="captcha" placeholder="CAPTCHA" />
         <?php } ?>
 
-            <button class="btn btn-large btn-primary" type="submit" value="<?php print $text_submit; ?>"><?php print $text_submit; ?></button>
+            <button class="btn btn-large btn-primary" type="submit" value="<?php print $text_submit; ?>">提交</button>
 
         </form>
 
