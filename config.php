@@ -242,12 +242,8 @@ $config['DELIMITER'] = "\t";
 $config['TRACKING_CODE'] = '';
 
 $langs = array(
-                'de',
                 'en',
-                'es',
-                'hu',
-                'pt',
-                'tr'
+                'cn'
                );
 
 
