@@ -29,7 +29,7 @@ $config['BOOTSTRAP_THEME'] = '-cosmo';
 
 $config['DEFAULT_LANG'] = 'en';
 
-$config['THEME'] = 'default';
+$config['THEME'] = 'custom';
 
 $config['SITE_NAME'] = 'piler.yourdomain.com';
 $config['SITE_URL'] = 'http://piler.yourdomain.com/';
@@ -249,6 +249,7 @@ $langs = array(
 
 $themes = array(
                 'default',
+                'custom',
                 'mobile'
                );
 
