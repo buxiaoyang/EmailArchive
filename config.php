@@ -248,8 +248,8 @@ $langs = array(
 
 
 $themes = array(
-                'default',
                 'custom',
+                'default',
                 'mobile'
                );
 
