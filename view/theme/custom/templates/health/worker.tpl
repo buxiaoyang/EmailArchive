@@ -4,7 +4,7 @@
 	<div class="row">
 		
 		<div class="span8">
-            <h2><i class="icon-dashboard icon-2x pull-left"></i><?php print $sysinfo[0]; ?> <small">Status</small></h2>
+            <h3><i class="icon-dashboard icon-2x pull-left"></i><?php print $sysinfo[0]; ?> <small">Status</small></h3>
             <h3><strong>Up For:</strong> <?php print $uptime; ?></h3>
             <table class="table table-striped">
                 <tr>
@@ -36,7 +36,7 @@
                 
             </table>
             
-            <h2><i class="icon-hdd icon-2x pull-left"></i>&nbsp;Storage</h2>
+            <h3><i class="icon-hdd icon-2x pull-left"></i>&nbsp;Storage</h3>
 			<table class="table table-striped">
 				 <tr>
 					<th><?php print $text_archive_size; ?>:</th>

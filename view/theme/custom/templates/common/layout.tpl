@@ -53,7 +53,11 @@ if(isset($this->request->get['route'])) {
    <div id="messagebox1" class="alert alert-info lead"></div>
    
    <div id="main">
-      <?php if($title) { ?><h3><?php print $title; ?></h3><?php } ?>
+      <?php if($title) { ?>
+        <div class="page-header">
+            <h4><?php print $title; ?></h4>
+        </div>
+       <?php } ?>
       <?php print $content; ?>
 
    </div> <!-- main -->

@@ -24,7 +24,7 @@
 
         <form name="login" action="login.php" method="post" class="form-signin">
 
-            <h2 class="form-signin-heading">登陆</h2>
+            <h3 class="form-signin-heading">登陆</h3>
 
             <?php if(isset($x)){ ?><p class="alert alert-error lead">无效的邮件地址或密码</p><?php } ?>
             <input type="hidden" name="relocation" value="<?php if(isset($_GET['route']) && !preg_match("/^login/", $_GET['route']) ) { if(isset($_SERVER['REDIRECT_URL'])) { print $_SERVER['REDIRECT_URL']; } else { print $_SERVER['QUERY_STRING']; } } ?>" />

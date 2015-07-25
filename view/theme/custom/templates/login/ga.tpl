@@ -33,7 +33,7 @@
 
         <form name="login" action="index.php?route=login/ga" method="post" class="form-signin" autocomplete="off">
 
-            <h2 class="form-signin-heading"><?php print $text_enter_google_authenticator_code; ?></h2>
+            <h3 class="form-signin-heading"><?php print $text_enter_google_authenticator_code; ?></h3>
 
             <?php if(isset($x)){ ?><p class="alert alert-error lead"><?php print $x; ?></p><?php } ?>
             <input type="hidden" name="relocation" value="<?php if(isset($_GET['route']) && !preg_match("/^login/", $_GET['route']) ) { if(isset($_SERVER['REDIRECT_URL'])) { print $_SERVER['REDIRECT_URL']; } else { print $_SERVER['QUERY_STRING']; } } ?>" />
