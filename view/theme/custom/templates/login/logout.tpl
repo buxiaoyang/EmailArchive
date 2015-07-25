@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -8,42 +8,50 @@
     <?php if(SITE_DESCRIPTION) { ?><meta name="description" content="<?php print SITE_DESCRIPTION; ?>" /><?php } ?>
     <?php if(PROVIDED_BY) { ?><meta name="author" content="<?php print PROVIDED_BY; ?>" /><?php } ?>
 
-    <link href="/view/theme/custom/assets/css/bootstrap.css" rel="stylesheet">
+   <link href="/view/theme/custom/assets/css/bootstrap.css" rel="stylesheet">
 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!-- original location: http://html5shim.googlecode.com/svn/trunk/html5.js -->
-    <!--[if lt IE 9]>
-      <script src="/view/theme/custom/assets/js/html5.js"></script>
-    <![endif]-->
+	<link href="/view/theme/custom/assets/css/navbar-fixed-top.css" rel="stylesheet" />
 
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/view/theme/custom/assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/view/theme/custom/assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/view/theme/custom/assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="/view/theme/custom/assets/ico/apple-touch-icon-57-precomposed.png">
     <?php if(BRANDING_FAVICON) { ?><link rel="shortcut icon" href="<?php print BRANDING_FAVICON; ?>" /><?php } ?>
   </head>
 
-<body>
 
+  <body>
+
+  
+<!-- Fixed navbar -->
+<nav class="navbar navbar-blue navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <div style="padding-right: 5px; padding-top: 6px;" class="pull-left">
+                <img style="height: 40px; width:100px;" src="/view/theme/custom/assets/images/archive-logo-sm.png">
+            </div>
+            <a class="navbar-brand" href="#"></a>
+        </div>
+    </div>
+</nav>
 <div id="piler1" class="container">
-
-   <div id="menu"></div>
-
-   <div id="main">
-
-      <h3><?php print $title; ?></h3>
-      <p><?php print $text_logged_out; ?>. <a href="<?php if(ENABLE_SSO_LOGIN == 1) { ?>sso.php<?php } else { ?>login.php<?php } ?>" class="messagelink"><?php print $text_back; ?></a></p>
-
-   </div> <!-- main -->
-
-   <div id="footer">
-</div>
-
-
-</div>
-
-<?php if(TRACKING_CODE) { print TRACKING_CODE; } ?>
+    <div id="main" style="width: 400px; min-height: 250px; margin-top: 40px;">
+        <div class="page-header">
+            <h4><?php print $title; ?></h4>
+        </div>
+        <div class="alert alert-success">
+         <?php print $text_logged_out; ?>. 
+             <a href="<?php if(ENABLE_SSO_LOGIN == 1) { ?>sso.php<?php } else { ?>login.php<?php } ?>" class="messagelink"><?php print $text_back; ?></a>
+        </div>
+         <p><?php if(TRACKING_CODE) { print TRACKING_CODE; } ?></p>     
+         
+        <div class="row-fluid wukong">
+            <div class="span3">
+                <img style="height:40px; width:100px;" src="<?php print SITE_URL; ?><?php print SITE_LOGO_LG; ?>" alt="Archive Logo Image"/>
+            </div>
+            <div class="span9">
+                <p>上海纤讯信息科技有限公司</p>
+                <p><small><a href="#" target="_blank">使用帮助</a><span class="muted">·</span><a href="#" target="_blank">技术支持</a><span class="muted">·</span><a href="#" target="_blank">联系我们</a></small></p>
+            </div>
+        </div>    
+    </div> <!-- main -->
+</div><!-- /container --></body>
 
 </body>
 </html>
