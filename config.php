@@ -34,13 +34,13 @@ $config['THEME'] = 'custom';
 $config['SITE_NAME'] = 'piler.yourdomain.com';
 $config['SITE_URL'] = 'http://piler.yourdomain.com/';
 
-$config['ENABLE_SAAS'] = 0;
+$config['ENABLE_SAAS'] = 1;
 $config['CAPTCHA_FAILED_LOGIN_COUNT'] = 0;
 
 $config['ENABLE_REFERENCES'] = 1;
-$config['ENABLE_DOWNLOADING_ALL_SEARCH_HITS'] = 0;
+$config['ENABLE_DOWNLOADING_ALL_SEARCH_HITS'] = 1;
 
-$config['ENABLE_TABLE_RESIZE'] = 0;
+$config['ENABLE_TABLE_RESIZE'] = 1;
 $config['DEMO_MODE'] = 0;
 
 $config['TIMEZONE'] = 'Europe/Budapest';
@@ -129,20 +129,20 @@ $config['COMPATIBILITY'] = '上海纤讯信息科技有限公司 版权所有';
 
 
 $config['ENABLE_AUDIT'] = 1;
-$config['MEMCACHED_ENABLED'] = 0;
-$config['PASSWORD_CHANGE_ENABLED'] = 0;
+$config['MEMCACHED_ENABLED'] = 1;
+$config['PASSWORD_CHANGE_ENABLED'] = 1;
 $config['ENABLE_STATISTICS'] = 1;
 $config['ENABLE_HISTORY'] = 1;
-$config['ENABLE_REMOTE_IMAGES'] = '0';
-$config['ENABLE_ON_THE_FLY_VERIFICATION'] = 0;
-$config['ENABLE_LDAP_IMPORT_FEATURE'] = 0;
-$config['ENABLE_FOLDER_RESTRICTIONS'] = 0;
-$config['SEARCH_RESULT_CHECKBOX_CHECKED'] = 0;
+$config['ENABLE_REMOTE_IMAGES'] = '1';
+$config['ENABLE_ON_THE_FLY_VERIFICATION'] = 1;
+$config['ENABLE_LDAP_IMPORT_FEATURE'] = 1;
+$config['ENABLE_FOLDER_RESTRICTIONS'] = 1;
+$config['SEARCH_RESULT_CHECKBOX_CHECKED'] = 1;
 $config['HELPER_URL'] = '';
 $config['ENABLE_SYSLOG'] = 1;
-$config['REWRITE_MESSAGE_ID'] = 0;
-$config['RESTORE_EMAILS_AS_ATTACHMENT'] = 0;
-$config['RESTRICTED_AUDITOR'] = 0;
+$config['REWRITE_MESSAGE_ID'] = 1;
+$config['RESTORE_EMAILS_AS_ATTACHMENT'] = 1;
+$config['RESTRICTED_AUDITOR'] = 1;
 
 $config['SHOW_ENVELOPE_JOURNAL'] = 0;
 $config['BULK_DOWNLOAD_FOR_USERS'] = 1;

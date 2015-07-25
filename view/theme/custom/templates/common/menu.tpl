@@ -1,7 +1,7 @@
 <?php if(Registry::get('username')) { ?>
 
 <!-- Fixed navbar -->
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-blue navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -11,7 +11,7 @@
                 <span class="icon-bar"></span>
             </button>
             <div style="padding-right: 5px; padding-top: 6px;" class="pull-left">
-                <img style="height: 40px; width:100px;" src="/view/theme/default/assets/images/archive-logo-lg.png"/>
+                <img style="height: 40px; width:100px;" src="/view/theme/custom/assets/images/archive-logo-sm.png"/>
             </div>
             <a class="navbar-brand" href="#"></a>
         </div>

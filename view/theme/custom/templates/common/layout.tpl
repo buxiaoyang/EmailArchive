@@ -12,6 +12,7 @@
     <meta name="robots" content="all" />
 
     <link href="/view/theme/custom/assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="/view/theme/custom/assets/css/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
 	<link href="/view/theme/custom/assets/css/navbar-fixed-top.css" rel="stylesheet" />
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
