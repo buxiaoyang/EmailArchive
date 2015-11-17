@@ -27,27 +27,27 @@ $config['TITLE_PREFIX'] = '';
 
 $config['BOOTSTRAP_THEME'] = '-cosmo';
 
-$config['DEFAULT_LANG'] = 'en';
+$config['DEFAULT_LANG'] = 'cn';
 
 $config['THEME'] = 'custom';
 
-$config['SITE_NAME'] = 'archive.weifu.com.cn';
-$config['SITE_URL'] = 'http://archive.weifu.com.cn/';
+$config['SITE_NAME'] = 'piler.yourdomain.com';
+$config['SITE_URL'] = 'http://piler.yourdomain.com/';
 
-$config['ENABLE_SAAS'] = 0;
+$config['ENABLE_SAAS'] = 1;
 $config['CAPTCHA_FAILED_LOGIN_COUNT'] = 0;
 
 $config['ENABLE_REFERENCES'] = 1;
-$config['ENABLE_DOWNLOADING_ALL_SEARCH_HITS'] = 0;
+$config['ENABLE_DOWNLOADING_ALL_SEARCH_HITS'] = 1;
 
-$config['ENABLE_TABLE_RESIZE'] = 0;
+$config['ENABLE_TABLE_RESIZE'] = 1;
 $config['DEMO_MODE'] = 0;
 
-$config['TIMEZONE'] = 'Asia/Shanghai';
+$config['TIMEZONE'] = 'Europe/Budapest';
 
 $config['PROVIDED_BY'] = 'www.qian-xun.com';
-$config['SITE_KEYWORDS'] = 'QX email Archive Server';
-$config['SITE_DESCRIPTION'] = 'QX Email Archive Server';
+$config['SITE_KEYWORDS'] = 'qian-xun email archiver';
+$config['SITE_DESCRIPTION'] = 'qian-xun email archiver';
 
 $config['INDEXER_BEACON'] = '/var/piler/stat/indexer';
 $config['PURGE_BEACON'] = '/var/piler/stat/purge';
@@ -125,24 +125,24 @@ $config['GOOGLE_ALL_MAIL'] = '[Gmail]/All Mail';
 
 $config['SITE_LOGO_LG'] = 'view/theme/custom/assets/images/archive-logo-lg.png';
 $config['SITE_LOGO_SM'] = 'view/theme/custom/assets/images/archive-logo-sm.png';
-$config['COMPATIBILITY'] = '上海纤讯信息科技有限公司 版权所有<br>支持浏览器 IE9+, Chrome, Firefox.';
+$config['COMPATIBILITY'] = '上海纤讯信息科技有限公司 版权所有<br/>支持浏览器 IE9+, Chrome, Firefox.';
 
 
 $config['ENABLE_AUDIT'] = 1;
-$config['MEMCACHED_ENABLED'] = 0;
-$config['PASSWORD_CHANGE_ENABLED'] = 0;
+$config['MEMCACHED_ENABLED'] = 1;
+$config['PASSWORD_CHANGE_ENABLED'] = 1;
 $config['ENABLE_STATISTICS'] = 1;
 $config['ENABLE_HISTORY'] = 1;
-$config['ENABLE_REMOTE_IMAGES'] = '0';
-$config['ENABLE_ON_THE_FLY_VERIFICATION'] = 0;
-$config['ENABLE_LDAP_IMPORT_FEATURE'] = 0;
-$config['ENABLE_FOLDER_RESTRICTIONS'] = 0;
-$config['SEARCH_RESULT_CHECKBOX_CHECKED'] = 0;
+$config['ENABLE_REMOTE_IMAGES'] = '1';
+$config['ENABLE_ON_THE_FLY_VERIFICATION'] = 1;
+$config['ENABLE_LDAP_IMPORT_FEATURE'] = 1;
+$config['ENABLE_FOLDER_RESTRICTIONS'] = 1;
+$config['SEARCH_RESULT_CHECKBOX_CHECKED'] = 1;
 $config['HELPER_URL'] = '';
 $config['ENABLE_SYSLOG'] = 1;
-$config['REWRITE_MESSAGE_ID'] = 0;
-$config['RESTORE_EMAILS_AS_ATTACHMENT'] = 0;
-$config['RESTRICTED_AUDITOR'] = 0;
+$config['REWRITE_MESSAGE_ID'] = 1;
+$config['RESTORE_EMAILS_AS_ATTACHMENT'] = 1;
+$config['RESTRICTED_AUDITOR'] = 1;
 
 $config['SHOW_ENVELOPE_JOURNAL'] = 0;
 $config['BULK_DOWNLOAD_FOR_USERS'] = 1;
@@ -242,13 +242,13 @@ $config['DELIMITER'] = "\t";
 $config['TRACKING_CODE'] = '';
 
 $langs = array(
-                'cn',
-                'en'
+                'en',
+                'cn'
                );
 
 
 $themes = array(
-				'custom',
+                'custom',
                 'default',
                 'mobile'
                );

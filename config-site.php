@@ -1,7 +1,7 @@
 <?php
 
-$config['SITE_NAME'] = '192.168.20.131';
-$config['SITE_URL'] = 'http://192.168.20.131/';
+$config['SITE_NAME'] = '192.168.175.128';
+$config['SITE_URL'] = 'http://192.168.175.128/';
 $config['DIR_BASE'] = '/var/www/piler.yourdomain.com/';
 
 $config['TIMEZONE'] = 'Europe/Budapest';

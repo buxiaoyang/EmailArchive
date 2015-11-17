@@ -28,17 +28,17 @@
                     <ul class="dropdown-menu">
                         <li>
                             <a href="index.php?route=stat/stat&timespan=daily">
-                                <i class="icon-bar-chart"></i>&nbsp;Statistics
+                                <i class="icon-bar-chart"></i>&nbsp;<?php print $text_statistics; ?>
                             </a>
                         </li>
                         <li>
                             <a href="index.php?route=accounting/accounting&view=email">
-                                <i class="icon-tasks"></i>&nbsp;Accounting
+                                <i class="icon-tasks"></i>&nbsp;<?php print $text_accounting; ?>
                             </a>
                         </li>
                         <li>
                             <a href="index.php?route=health/health">
-                                <i class="icon-medkit"></i>&nbsp;Health
+                                <i class="icon-medkit"></i>&nbsp;<?php print $text_health_monitor; ?>
                             </a>
                         </li>
                         <?php if(ENABLE_AUDIT == 1) { ?>
