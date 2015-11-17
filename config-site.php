@@ -5,7 +5,7 @@ $config['SITE_URL'] = 'http://192.168.175.128/';
 $config['DIR_BASE'] = '/var/www/piler.yourdomain.com/';
 
 $config['TIMEZONE'] = 'Europe/Budapest';
-
+ 
 $config['ENABLE_SYSLOG'] = 1;
 
 $config['SMTP_DOMAIN'] = 'piler.yourdomain.com';
